@@ -1,0 +1,6 @@
+<mat-progress-bar *ngIf="!(finishedLoading$ | async)" class="w-100 mb-1" mode="indeterminate"></mat-progress-bar>
+<h1 class="text-muted mb-2">Users</h1>
+
+<div *ngIf="(finishedLoading$ | async)">
+  <app-user-list [messageCount]="totalMessages" [userMessagesByUser]="messagesByUser" [userList]="userList"></app-user-list>
+</div>

@@ -1,0 +1,31 @@
+<div #dialogRoot class="p-0 m-0">
+  <h2 class="text-secondary" mat-dialog-title>{{title | uppercase}} Messages</h2>
+  <div class="horizontal-divider bg-primary"></div>
+  <mat-dialog-content class="mt-2">
+    <div class="container mt-1 mb-3">
+      <div class="row justify-content-end">
+        <mat-slide-toggle class="col-auto" (change)="onSliderChange($event)">Clean Stop Words</mat-slide-toggle>
+      </div>
+    </div>
+    <div *ngIf="showNoStopMessages">
+      <ol class="list-group">
+        <li *ngFor="let msg of noStopMessages; index as i;" class="list-group-item rounded-list p-2"
+            [ngClass]="{'list-group-item-secondary': i%2==0}">
+          <p class=""> {{msg}}</p>
+        </li>
+
+
+      </ol>
+    </div>
+    <div *ngIf="!showNoStopMessages">
+      <ol class="list-group">
+        <li *ngFor="let msg of messages; index as i;" class="list-group-item rounded  p-2"
+            [ngClass]="{'list-group-item-secondary': i%2==0}">
+          <p class=""> {{msg}}</p>
+        </li>
+
+
+      </ol>
+    </div>
+  </mat-dialog-content>
+</div>

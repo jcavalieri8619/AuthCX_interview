@@ -1,0 +1,20 @@
+54315 I hope that, when I've built up my savings, I'll be able to travel to Mexico.
+54315 Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile
+1133162 Did you know that, along with gorgeous architecture, it's home to the largest tamale?
+1133162 Please note that all JavaScript plugins require jQuery to be included, as shown in the starter template. 
+16163 Wouldn't it be lovely to enjoy a week soaking up the culture?
+16163 Once downloaded, unzip the compressed folder to see the structure of (the compiled) Bootstrap. You'll see something like this:
+1666253 Once you know all the elements, it's not difficult to pull together a sentence.
+1666253 The Bootstrap source code download includes the precompiled CSS, JavaScript, and font assets, along with source Less, JavaScript, and documentation. More specifically, it includes the following and more:
+1669362353 Anchors, or atomic zero-width assertions, specify a position in the string where a match must occur. When you use an anchor in your search expression, the regular expression engine does not advance through the string or consume characters.
+1669362353 By default, the match must occur at the beginning of the string; in multiline mode, it must occur at the beginning of the line.
+1669362353 Match one or more word characters followed by a space, followed by one or more word characters. This is the fourth capturing group.
+1996163 When working on Angular projects you have to jump between different component files, such as TypeScript, template, and style files.
+1996163 Both versions are equivalent and will give you the exact same output, Now you might ask yourself
+770007 The most obvious one difference is the syntax. A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element.
+770007 A class component requires you to extend from React.Component and create a render function which returns a React element.
+770007 If you take a look at the transpiled code by Babel you will also see some major differences
+1887001 Because a functional component is just a plain JavaScript function, you cannot use setState method
+1887001 So everytime you see a functional component you can be sure that this particular component doesn’t have its own state.
+1887001 Another feature which you cannot use in functional components are lifecycle hooks.
+1887001 The reason is the same like for state, all lifecycle hooks are coming from the React
