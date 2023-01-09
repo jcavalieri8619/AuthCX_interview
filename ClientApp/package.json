@@ -31,7 +31,7 @@
     "@swimlane/ngx-charts": "^13.0.2",
     "hammerjs": "^2.0.8",
     "jquery": "3.4.1",
-    "luxon": "^1.22.0",
+    "luxon": "^1.28.1",
     "oidc-client": "^1.9.0",
     "jQuery": "^1.7.4",
     "popper.js": "^1.14.7",
